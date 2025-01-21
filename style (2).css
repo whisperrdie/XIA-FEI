@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6e3f1d;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: #e8e8e8;
+}
+
+.navbar .nav-link:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Carousel */
+.carousel-inner img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #ffcc99;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect untuk Card */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Bayangan lebih tegas saat hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect untuk Gambar di Card */
+.card img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.card-title {
+    color: #993300;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #663300;
+}
+
+.btn-primary {
+    background-color: #ff9966;
+    border: none;
+}
+
+/* Hover Effect untuk Button Produk */
+.btn-primary:hover {
+    background-color: #ff6600;
+    color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Efek bayangan pada tombol */
+    transform: scale(1.05); /* Membuat tombol sedikit lebih besar saat hover */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Style untuk Produk */
+.container h3 {
+    color: #993300;
+    font-weight: bold;
+}
+
+/* Style untuk Profil */
+#cardCarousel .card {
+    border: 1px solid #ffcc99;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tombol Sosial Media */
+.btn {
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+
+/* Kontak List */
+.list-group-item {
+    border: none;
+    background-color: transparent;
+}
+
+/* Google Maps */
+iframe {
+    transition: all 0.3s ease;
+}
+
+iframe:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
